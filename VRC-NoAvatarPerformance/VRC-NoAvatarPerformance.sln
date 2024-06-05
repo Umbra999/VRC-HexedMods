@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRC-NoAvatarPerformance", "VRC-NoAvatarPerformance\VRC-NoAvatarPerformance.csproj", "{2F22863E-F419-48D1-84BA-1CB8EB24C088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F22863E-F419-48D1-84BA-1CB8EB24C088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F22863E-F419-48D1-84BA-1CB8EB24C088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F22863E-F419-48D1-84BA-1CB8EB24C088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F22863E-F419-48D1-84BA-1CB8EB24C088}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB2C7F5F-90EA-4CAD-928A-D72A4F085F8F}
+	EndGlobalSection
+EndGlobal

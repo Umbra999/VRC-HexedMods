@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>VRC_NoAvatarPerformance</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\Desktop\HexedWare\Settings\UnityLoader\VRChat\Dummy\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreRuntime">
+      <HintPath>..\..\..\..\Desktop\HexedWare\Settings\UnityLoader\VRChat\Runtime\CoreRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\..\..\Desktop\HexedWare\Settings\UnityLoader\VRChat\Runtime\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\..\..\Desktop\HexedWare\Settings\UnityLoader\VRChat\Dummy\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDKBase">
+      <HintPath>..\..\..\..\Desktop\HexedWare\Settings\UnityLoader\VRChat\Dummy\VRCSDKBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
