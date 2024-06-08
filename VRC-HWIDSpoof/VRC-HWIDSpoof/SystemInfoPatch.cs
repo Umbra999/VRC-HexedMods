@@ -46,9 +46,16 @@ namespace VRC_HWIDSpoof
 
         private static string GenerateHWID()
         {
-            byte[] bytes = new byte[OriginalLenght / 2];
-            random.NextBytes(bytes);
-            return string.Join("", bytes.Select(it => it.ToString("x2")));
+            if (!File.Exists("FakeHWID.txt"))
+            {
+                byte[] bytes = new byte[OriginalLenght / 2];
+                random.NextBytes(bytes);
+                string NewHWID = string.Join("", bytes.Select(it => it.ToString("x2")));
+
+                File.WriteAllText("FakeHWID.txt", NewHWID);
+            }
+
+            return File.ReadAllText("FakeHWID.txt");
         }
     }
 }
